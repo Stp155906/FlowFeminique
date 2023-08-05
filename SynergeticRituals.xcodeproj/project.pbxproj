@@ -11,6 +11,16 @@
 		E405D6D92A7D8C72008CFE3B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405D6D82A7D8C72008CFE3B /* ContentView.swift */; };
 		E405D6DB2A7D8C73008CFE3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E405D6DA2A7D8C73008CFE3B /* Assets.xcassets */; };
 		E405D6DE2A7D8C73008CFE3B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E405D6DD2A7D8C73008CFE3B /* Preview Assets.xcassets */; };
+		E405D6E72A7D8CF7008CFE3B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405D6E62A7D8CF7008CFE3B /* User.swift */; };
+		E405D6E92A7D8D65008CFE3B /* Cyclephase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405D6E82A7D8D65008CFE3B /* Cyclephase.swift */; };
+		E405D6EB2A7E9D68008CFE3B /* MoonPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405D6EA2A7E9D68008CFE3B /* MoonPhase.swift */; };
+		E405D6ED2A7E9D80008CFE3B /* Constellation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405D6EC2A7E9D80008CFE3B /* Constellation.swift */; };
+		E405D6F02A7E9F13008CFE3B /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405D6EF2A7E9F13008CFE3B /* InputView.swift */; };
+		E405D6F32A7E9F6F008CFE3B /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405D6F22A7E9F6F008CFE3B /* UserProfileView.swift */; };
+		E405D6F62A7E9FA2008CFE3B /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405D6F52A7E9FA2008CFE3B /* DashboardView.swift */; };
+		E405D6F82A7E9FB0008CFE3B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405D6F72A7E9FB0008CFE3B /* SettingsView.swift */; };
+		E46F51362A7EE3A5006482D4 /* Ritual.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46F51352A7EE3A5006482D4 /* Ritual.swift */; };
+		E46F51382A7EE4AC006482D4 /* RitualView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46F51372A7EE4AC006482D4 /* RitualView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,16 @@
 		E405D6D82A7D8C72008CFE3B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E405D6DA2A7D8C73008CFE3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E405D6DD2A7D8C73008CFE3B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E405D6E62A7D8CF7008CFE3B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E405D6E82A7D8D65008CFE3B /* Cyclephase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cyclephase.swift; sourceTree = "<group>"; };
+		E405D6EA2A7E9D68008CFE3B /* MoonPhase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonPhase.swift; sourceTree = "<group>"; };
+		E405D6EC2A7E9D80008CFE3B /* Constellation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constellation.swift; sourceTree = "<group>"; };
+		E405D6EF2A7E9F13008CFE3B /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		E405D6F22A7E9F6F008CFE3B /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
+		E405D6F52A7E9FA2008CFE3B /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		E405D6F72A7E9FB0008CFE3B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		E46F51352A7EE3A5006482D4 /* Ritual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ritual.swift; sourceTree = "<group>"; };
+		E46F51372A7EE4AC006482D4 /* RitualView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RitualView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +73,8 @@
 			children = (
 				E405D6D62A7D8C72008CFE3B /* SynergeticRitualsApp.swift */,
 				E405D6D82A7D8C72008CFE3B /* ContentView.swift */,
+				E405D6F12A7E9F1A008CFE3B /* Views */,
+				E405D6EE2A7E9ED9008CFE3B /* models */,
 				E405D6DA2A7D8C73008CFE3B /* Assets.xcassets */,
 				E405D6DC2A7D8C73008CFE3B /* Preview Content */,
 			);
@@ -65,6 +87,30 @@
 				E405D6DD2A7D8C73008CFE3B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E405D6EE2A7E9ED9008CFE3B /* models */ = {
+			isa = PBXGroup;
+			children = (
+				E405D6E62A7D8CF7008CFE3B /* User.swift */,
+				E405D6EA2A7E9D68008CFE3B /* MoonPhase.swift */,
+				E405D6EC2A7E9D80008CFE3B /* Constellation.swift */,
+				E405D6E82A7D8D65008CFE3B /* Cyclephase.swift */,
+				E46F51352A7EE3A5006482D4 /* Ritual.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		E405D6F12A7E9F1A008CFE3B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E405D6EF2A7E9F13008CFE3B /* InputView.swift */,
+				E405D6F22A7E9F6F008CFE3B /* UserProfileView.swift */,
+				E46F51372A7EE4AC006482D4 /* RitualView.swift */,
+				E405D6F72A7E9FB0008CFE3B /* SettingsView.swift */,
+				E405D6F52A7E9FA2008CFE3B /* DashboardView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +183,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E405D6EB2A7E9D68008CFE3B /* MoonPhase.swift in Sources */,
+				E46F51362A7EE3A5006482D4 /* Ritual.swift in Sources */,
+				E405D6F02A7E9F13008CFE3B /* InputView.swift in Sources */,
+				E405D6E72A7D8CF7008CFE3B /* User.swift in Sources */,
+				E405D6F32A7E9F6F008CFE3B /* UserProfileView.swift in Sources */,
+				E405D6F62A7E9FA2008CFE3B /* DashboardView.swift in Sources */,
+				E405D6F82A7E9FB0008CFE3B /* SettingsView.swift in Sources */,
 				E405D6D92A7D8C72008CFE3B /* ContentView.swift in Sources */,
 				E405D6D72A7D8C72008CFE3B /* SynergeticRitualsApp.swift in Sources */,
+				E405D6E92A7D8D65008CFE3B /* Cyclephase.swift in Sources */,
+				E405D6ED2A7E9D80008CFE3B /* Constellation.swift in Sources */,
+				E46F51382A7EE4AC006482D4 /* RitualView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
